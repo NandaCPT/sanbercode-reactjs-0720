@@ -6,7 +6,7 @@
 
 .tabel {
     margin: auto;
-    text-align: left;
+    text-align: center;
     font-size: 24px;
     border-collapse: collapse;
     border: 3px solid black;
@@ -15,7 +15,7 @@
   }
   
   .tabel td, .tabel th {
-    border: 3px solid white;
+    border: 1px solid white;
     padding: 5px;
   }
   
@@ -26,3 +26,30 @@
     background-color: #ddd;
     color: black;
   }
+
+.tambahData {
+  margin: auto;
+  text-align: center;
+  width: 640px;
+  border: 1px solid black;
+}
+
+button {
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 8px;
+}
+
+input[type=text] {
+  font-size: 20px;
+  width: auto;
+  padding: 10px;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
