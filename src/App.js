@@ -3,7 +3,10 @@ import './style.css';
 // import DaftarBuah from './Tugas 11/DaftarBuah';
 // import Clock from './Tugas 12/Timer';
 // import DaftarBuahList from './Tugas 13/DaftarBuahList';
-import DaftarBuahHooks from './Tugas 14/DaftarBuahHooks';
+// import DaftarBuahHooks from './Tugas 14/DaftarBuahHooks';
+import {BrowserRouter as Router} from "react-router-dom";
+import Routes from './Tugas 15/Routes';
+import Buah from './Tugas 15/Buah';
 
 function App() {
   return (
@@ -19,7 +22,15 @@ function App() {
        {/* <DaftarBuahList></DaftarBuahList> */}
 
       {/* Tugas Hari ke 14 */}
-       <DaftarBuahHooks></DaftarBuahHooks>
+       {/* <DaftarBuahHooks></DaftarBuahHooks> */}
+
+      {/* Tugas Hari ke 15/ Routes */}
+       <Router>
+         <Routes></Routes>
+       </Router>
+
+      {/* Tugas hari ke 15/ Context */}
+       {/* <Buah></Buah> */}
 
     </div>
       
